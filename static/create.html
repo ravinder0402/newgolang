@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Library Form</title>
+  <link rel="stylesheet" href="/static/cstyle.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Create Library</h1>
+    <form id="libraryForm">
+      <label for="libraryName">Library Name:</label>
+      <input type="text" id="libraryName" name="library_name" required><br>
+      
+      <label for="ownerName">Owner Name:</label>
+      <input type="text" id="ownerName" name="owner_name" required><br>
+      
+      <label for="ownerEmail">Owner Email:</label>
+      <input type="email" id="ownerEmail" name="owner_email" required><br>
+      
+      <label for="ownerPhone">Owner Phone:</label>
+      <input type="tel" id="ownerPhone" name="owner_phone" required><br>
+      
+      <label for="ownerRole">Owner Role:</label>
+      <select id="ownerRole" name="owner_role">
+        <option value="Admin">Admin</option>
+        <option value="Reader">Reader</option>
+      </select><br>
+      
+      <button type="submit">Create Library</button>
+    </form>
+    <div id="message"></div>
+  </div>
+ 
+  <script src="/static/cscript.js"></script>
+</body>
+</html>

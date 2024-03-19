@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+  background: url("image2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+ 
+h1 {
+    margin-bottom: 30px;
+}
+ 
+#login-container,
+#otp-container {
+    margin-bottom: 50px;
+}
+ 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+label {
+    margin-bottom: 10px;
+}
+ 
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+ 
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+ 
+button:hover {
+    background-color: #0056b3;
+}
